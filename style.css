@@ -4,7 +4,7 @@
 
 body {
     box-sizing: border-box;
-    background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3905");
+    background-image: url("Images/backgroundWallpaper.jpg");
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -54,6 +54,9 @@ p {
     animation-duration: 1.5s;
 }
 
+.carousel-inner {
+    border: 5px solid var(--theme-color);
+}
 
 .carousel-inner img {
     margin: 0 auto;
